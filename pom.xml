@@ -12,6 +12,13 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>joda-time</groupId> <!--依赖关系所属组/组织-->
+            <artifactId>joda-time</artifactId><!--所需的库-->
+            <version>2.9.2</version><!--所需库的特定版本-->
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
